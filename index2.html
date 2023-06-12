@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card de Produto</title>
+
+    <style>
+        body{
+            background-color: #D9CDF7;
+        }
+        .todo{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            padding-top: 180px;
+            padding-left: 70px;
+            
+        }
+        .imgsofa{
+            padding-right: 15px;   
+        }
+        .icone360{
+            position: absolute;
+            padding-left: 420px;
+        }
+        .textos{
+            padding-top: 15px;
+            color: #271A45;
+        }
+        .codigo{
+            font-weight: 300;
+            font-size:12px;
+            font-family: 'Lato';
+        }
+        .produto{
+            font-size: 35px;
+            font-family:'Crimson Pro';
+        }
+        .valor{
+            font-weight: 400;
+            font-size: 20px;
+            font-family: 'Lato';
+            margin-top: 10px;
+        }
+        .cesta{
+            color: #271A45;
+            font-size: 14px;
+            font-family: 'Lato';
+        }
+        button{
+            border: 1px solid #271A45;
+            border-radius: 1000px;
+            padding: 10px 16px;
+            background-color: #D9CDF7;
+            margin-top: 5px;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <div class="todo">
+        <div class="img">
+            <img class="imgsofa" src="imagens/gifsofa.gif"
+            width="520"
+            height="280">
+        </div>
+        <a class="icone360" href="index.html"><img src="imagens/Vector (Stroke).png" width="16" height="16"></a>
+        
+        
+        <div class="textos">
+            <div class="infos">
+                <h5 class="codigo">CÓDIGO: 42404</h5>
+                <main class="produto"><strong>Sofá Margot II - Rosé</strong>
+                    <p class="valor">R$4.000</p>
+                </main>
+            </div>
+
+            <div>
+                <button class="cesta">
+                    ADICIONAR À CESTA
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
